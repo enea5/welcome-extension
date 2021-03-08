@@ -1,0 +1,430 @@
+body {
+    width: 300px;
+    height: 532px;
+    color: black;
+}
+a {
+    color: #AF8371;
+}
+
+.overlay {
+  background: url('../../../static/images/header-1.png');
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 129px;
+}
+.svg {
+  position: absolute;
+  width: 100%;
+  background: url('../../../static/images/header-web.png');
+  background-repeat: no-repeat;
+  padding: 0; /* reset */
+  height: 100%;
+  bottom: 0px;
+}
+.radio-text {
+
+}
+/* The checkbox container */
+
+.checkbox-container {
+  display: block;
+  position: relative;
+  padding-left: 28px;
+  margin: 0px 0px 12px 0px;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.checkbox-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  border: 1px solid #7BC6CC;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-container:hover input ~ .checkmark {
+  background-color: #ecf7f8;
+}
+
+/* When the radio button is checked, add a blue background */
+.checkbox-container input:checked ~ .checkmark {
+  background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.checkbox-container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.checkbox-container .checkmark:after {
+  top: 2px;
+  left: 2px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #7BC6CC;
+}
+
+.button-pro {
+  background-color: #675E9B;
+  border: none;
+  color: white;
+  padding: 15px 44px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.footer-overlay {
+  background: url('../../../static/images/footer-rectangle.png');
+  overflow: hidden;
+  width: 100%;
+  height: 208px;
+}
+
+.background-silk-svg {
+  position: absolute;
+  width: 100%;
+  background: url('../../../static/images/bg-silk.png');
+  background-repeat: no-repeat;
+  padding: 0; /* reset */
+  height: 100%;
+  bottom: 0px;
+  top: 136px;
+  z-index: -1;
+}
+/* -------------------------- */
+
+.padding-div {
+  margin: auto;
+  width: 90%;
+  padding: 10px;
+}
+.pro-button {
+  position: absolute;
+  bottom: 90px;
+  text-align: center;
+  z-index: 1;
+}
+
+.flex-container-menu {
+  display: flex;
+  justify-content: center;
+}
+.flex-container-footer {
+  display: flex;
+  justify-content: center;
+}
+.margin-menu-between {
+  margin: 0 20px;
+}
+.text--white {
+  color: white;
+}
+.text--center {
+  text-align: center !important;
+}
+.text--right {
+  text-align: right important;
+}
+.text--left {
+  text-align: left !important;
+}
+.button-position {
+  position: absolute;
+  left: 90px;
+  bottom: -43px;
+}
+.pro-text {
+  position: absolute;
+
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 0%;
+  /* identical to box height, or 0px */
+
+  text-align: center;
+
+  /* black */
+
+  color: #000000;
+  bottom: 46px;
+  width: 120px;
+}
+.upgrade-button {
+  background-color: #675E9B;
+  width: 115.77px;
+  height: 31.09px;
+  left: 0px;
+  position: relative;
+  color: white;
+  border: 0;
+  box-shadow: none;
+  font-family: Mediator;
+  font-size: 9.26128px;
+  line-height: 0%;
+  padding: 16px 0px;
+  text-align: center;
+}
+
+.options-text {
+  font-family: Mulish;
+  margin-bottom: 20px !important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 91.5%;
+}
+
+.hello-text{
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 15px;
+  line-height: 91.5%;
+  margin-top: 0px;
+}
+.logged-in-as {
+  font-family: Mulish;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 91.5%;
+  color: #FFFFFF;
+}
+
+/* Charlotte Assistance */
+.top-right-assistant {
+  width: 61.31px;
+  height: 28.54px;
+  margin-left: 12.65px;
+  margin-top: 9.38px;
+  font-family: Helvetica !important;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8.58px;
+  line-height: 110%;
+}
+
+/* Logo Out */
+.logo-out {
+  height: 60px;
+  width: 60px;
+  margin: 8px auto;
+  position: relative;
+  left: 0px;
+}
+/* Logo Inner */
+.logo-inner {
+  height: 20px;
+  width: 18px;
+  margin: 7px auto;
+  position: absolute;
+  left: 140px;
+  top: 20.5px;
+}
+/* Logout Icon */
+.logout-icon {
+  position: absolute;
+  width: 19.34px;
+  height: 19.34px;
+  top: 13.44px;
+  right: 26px;
+}
+
+/* Logout Text */
+.logout-text {
+  text-align: center;
+  color: white;
+  top: 35px;
+  position: absolute;
+  right: 22px;
+  cursor: pointer;
+
+  /* font */
+  font-family: Muli;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 9px;
+  line-height: 91.5%;
+}
+
+/* Navigation Row */
+.nav-row {
+  margin: 30px 0px 43px;
+  margin-right: 4px !important;
+  font-size: 11px;
+}
+
+/* Curate Text */
+.curate-text:hover, .tutorials-text:hover, .account-text:hover  {
+  text-decoration: none;
+}
+.curate-text {
+  font-family: Mulish !important;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 91.5%;
+  /* identical to box height, or 10px */
+  color: #99DAF5;
+  cursor: pointer;
+
+  /* Border Bottom as underline */
+  border-bottom: 1px solid #99DAF5;
+  padding-bottom: 1px;
+}
+
+/* Tutorials Text */
+.tutorials-text {
+  font-family: Mulish !important;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 91.5%;
+  /* identical to box height, or 10px */
+
+  /* black */
+  color: #000000 !important;
+
+  /* Border Bottom as underline */
+  border-bottom: 1px solid #000000;
+  padding-bottom: 1px;
+}
+
+/* My Account Text */
+.account-text {
+  font-family: Mulish !important;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 11px;
+  line-height: 91.5%;
+  /* identical to box height, or 10px */
+
+  /* black */
+  color: #000000 !important;
+  /* Border Bottom as underline */
+  border-bottom: 1px solid #000000;
+  padding-bottom: 1px;
+}
+
+/* Options Row */
+.options-row {
+  margin: 0px 0px 0px 24px;
+}
+
+/* Margin Bottom */
+.mb-options {
+  margin-bottom: 7px;
+}
+
+/* Footer Row */
+.footer-row {
+  position: absolute;
+  bottom: 143px;
+  z-index: 1;
+  width: 100%;
+}
+
+.header-contents {
+  z-index: 1;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+/* ----------------------- LOGIN ------------------------- */
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.show-you-row {
+  margin: 25px 0px 0px 0px;
+}
+.show-you-font-upper {
+  font-size: 24px !important;
+  font-family: Poppins !important;
+  font-weight: 500;
+}
+.show-you-font-lower {
+  font-size: 24px !important;
+  font-family: Poppins !important;
+  font-weight: 500;
+}
+
+.get-started-row {
+  position: relative;
+  bottom: -70px;
+  margin: 10px 0px;
+}
+
+.button-position-twitter-login {
+  position: absolute;
+  left: 37px;
+  bottom: -65px;
+  background: #179aea;
+  border-radius: 5px;
+  height: 47px;
+  width: 220px;
+  color: white;
+  font-weight: 600;
+  vertical-align: middle;
+  text-align: center;
+  border: 1px solid #ffffffa1;
+  font-size: 16px;
+  padding-top: 11px;
+  font-family: poppins;
+  margin-left: 3px;
+  cursor: pointer;
+}
+
+.twitter-login-button {
+  cursor: pointer;
+}
+.margin-right-icon {
+  margin-right: 4px;
+}
+.twitter-image-div {
+  width: 200px;
+  height: 100px;
+}
+.twitter-image-button {
+    cursor: pointer;
+    height: 45px;
+}
+.twitter-icon {
+  margin-right: 4px;
+  margin-bottom: 2px;
+}
+
+/* ----------------------- / = LOGIN ------------------------- */

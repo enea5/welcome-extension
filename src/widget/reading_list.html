@@ -1,0 +1,48 @@
+<html>
+
+<head>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Added Ivan => firstStory.css -->
+    <link rel="stylesheet" href="css/firstStory.css">
+    <link rel="shortcut icon" href="https://logo.clearbit.com/dailywire.com?size=100" type="image/x-icon">
+    <link rel="stylesheet" href="../fonts.css">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <style>
+        body {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body class="limitReached__body" style="background-color:#f2f2f2;">
+    <img class="firstStory__refresh" id="refresh" src="data:image/png;base64,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" alt="refresh">
+
+    <div class="container no-subscription">
+        <div class="header" style="margin-top: -15px; margin-bottom: 10px;">
+            <center>
+                <h2 style="font-weight: 900;font-size: 25px;margin-top: 50px; font-family: muli, arial;">
+                    What Friends You Follow are Reading on the Web</h2>
+            </center>
+            <br>
+        </div>
+        <div id="app" class="">
+
+        </div>
+        <script src="../widget/js/jquery.js"></script>
+        <script src="../widget/js/read_list.js"></script>
+</body>
+</html>

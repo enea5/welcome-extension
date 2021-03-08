@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@900&display=swap');
+
+/*.sumulate .__sidebar {
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+    transition-delay: 0s;
+}*/
+
+.simulate .__sidebar {
+    transform: translateX(0);
+    transition: transform 0.5s ease-in-out;
+    transition-delay: 0s;
+}
+
+.simulate-hover {
+    background: black;
+}
+
+.simulate-hover div.name {
+	color: white !important;
+}
+
+.simulate-hover:not(.video) path {
+    fill: lightseagreen;
+}
+
+.simulate-hover.video path {
+    stroke: lightseagreen;
+}

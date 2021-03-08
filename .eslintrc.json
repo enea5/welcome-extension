@@ -1,0 +1,11 @@
+{
+	"parserOptions": {
+		"ecmaVersion": 2018,
+		"sourceType": "module", 
+        "parser": "babel-eslint"
+    },
+	"extends": "plugin:vue/recommended",
+	"env": {
+        "es6": true
+    }
+}
